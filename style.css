@@ -1,0 +1,369 @@
+* {
+    padding: 0;
+    margin: 0;
+
+
+}
+
+H2 {
+    color: white;
+    text-align: center;
+
+}
+
+h3 {
+    color: #C9611D;
+}
+
+hr {
+    color: white;
+}
+
+.logo {
+
+    color: #C9611D;
+
+}
+
+.nav-item {
+    color: #C9611D;
+
+}
+
+
+body {
+    background-color: #2c2c2c;
+}
+
+.container {
+
+    width: fit-content;
+    height: fit-content;
+}
+
+
+.small_prief {
+    width: fit-content;
+    margin: 10% auto;
+
+}
+
+.para {
+    font-size: 50px;
+    color: white;
+
+}
+
+.parag {
+
+    font-size: 80px;
+    color: #C9611D;
+}
+
+.contact_button {
+
+    background-color: #C9611D;
+    color: white;
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.contact_button a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact_button:hover {
+    border: 1px solid #C9611D;
+    background-color: #2c2c2c;
+    color: #C9611D;
+
+}
+
+.section2 {
+    text-align: center;
+    color: #C9611D;
+
+    font-size: 30px;
+}
+
+.about-button {
+
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #C9611D;
+    border-radius: 6px;
+}
+
+.about-button a {
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.about-button:hover {
+    border: 1px solid #C9611D;
+    background-color: #2c2c2c;
+    color: #C9611D;
+
+}
+
+.section3 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.web-design {
+
+    color: white;
+
+    font-size: 25px;
+
+}
+
+.seo {
+    color: white;
+    font-size: 25px;
+    margin: 0 10px;
+}
+
+.web-dev {
+    font-size: 25px;
+    color: white;
+}
+
+.Technical-Skills {
+    color: #C9611D;
+}
+
+.friends {
+    width: 50px;
+    height: 40px;
+
+}
+
+.search {
+    width: 50px;
+    height: 40px;
+
+}
+
+.group {
+    width: 50px;
+    height: 40px;
+
+}
+
+.presentation {
+    width: 50px;
+    height: 40px;
+
+}
+
+.tech {
+    width: 180px;
+}
+
+.soft {
+    width: 180px;
+}
+
+.Technical-Skills {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.project {
+
+    display: flex;
+    direction: row;
+    justify-content: space-between;
+}
+
+.bookstore {
+
+    color: white;
+    font-size: 20px;
+
+}
+
+#buttonp {
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    background-color: #C9611D;
+
+    border-radius: 6px;
+}
+
+#buttonp a {
+    text-decoration: none;
+    color: white;
+
+
+}
+
+#buttonp:hover {
+    border: 1px solid #C9611D;
+    background-color: #2c2c2c;
+    color: #C9611D;
+}
+
+.imgstore {
+    width: 260px;
+    height: 200px;
+}
+
+.bookshop {
+    color: white;
+    font-size: 20px;
+}
+
+#buttonb {
+    width: 100px;
+    height: 50px;
+    font-size: 15px;
+    background-color: #C9611D;
+
+    border-radius: 6px;
+}
+
+#buttonb a {
+    text-decoration: none;
+    color: white;
+}
+
+#buttonb:hover {
+    border: 1px solid #C9611D;
+    background-color: #2c2c2c;
+    color: #C9611D;
+}
+
+.imgshop {
+    width: 260px;
+    height: 200px;
+}
+
+.personal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+
+
+}
+
+.contactme {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    color: white;
+    font-size: 30px;
+
+}
+
+.send {
+    margin: 0 30px;
+
+}
+
+#follow {
+    font-size: 30px;
+    color: white;
+
+}
+
+#github {
+    width: 60px;
+    height: 50px;
+}
+
+#linkedin {
+    width: 60px;
+    height: 50px;
+}
+
+.single_section {
+    height: 500px;
+}
+
+.single_section_small {
+    height: 200px;
+}
+
+.single_project {
+    width: 280px;
+}
+
+#my-project {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-link {
+    color: #C9611D;
+}
+
+@media (max-width:500px) {
+
+    #my-project,
+    .contactme,
+    .personal,
+    .project,
+    .Technical-Skills,
+    .section3 {
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    #about_me {
+        font-size: 16px;
+    }
+
+    .parag {
+        font-size: 30px;
+    }
+
+    .section3 .service {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .section3 .service img {
+        width: 50px;
+    }
+
+    .section3 {
+        height: 700px;
+        margin-bottom: 20px;
+    }
+
+    .skills_heading {
+        margin-top: 260px;
+    }
+
+    .project_heading {
+        margin-top: 100px;
+    }
+
+    #my-project .single_project {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .single_skill {
+        width: 100%;
+    }
+}
