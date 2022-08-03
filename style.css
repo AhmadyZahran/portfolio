@@ -3,6 +3,7 @@
     margin: 0;
 
 
+
 }
 
 H2 {
@@ -13,6 +14,10 @@ H2 {
 
 h3 {
     color: #C9611D;
+}
+
+hr {
+    color: white
 }
 
 
@@ -95,9 +100,9 @@ body {
 .section2 {
     text-align: center;
     color: #C9611D;
-    width: 100%;
-
-
+    margin: 0 auto;
+    color: white;
+    width: 50%;
     font-size: 30px;
 }
 
@@ -161,21 +166,24 @@ body {
 
 
 .web-design {
-    text-align: center;
+    text-align: start;
     border: 1px solid;
 
-
+    max-width: 20rem;
+    height: 20rem;
     color: white;
 
-    font-size: 25px;
+    font-size: 30px;
 
 }
 
 
 .web-dev {
-    text-align: center;
+    max-width: 20rem;
+    height: 20rem;
+    text-align: start;
     border: solid 1px;
-    font-size: 25px;
+    font-size: 30px;
     color: white;
 }
 
@@ -217,12 +225,14 @@ body {
     width: 190px;
     border: solid 1px white;
     margin: 10px;
+    height: fit-content;
 }
 
 .soft {
     width: 190px;
     border: solid 1px white;
     margin: 10px;
+    height: fit-content;
 }
 
 .Technical-Skills {
@@ -250,11 +260,11 @@ body {
 }
 
 #buttonp {
-    margin-left: 90px;
+
 
     width: 100px;
-    height: 50px;
-    font-size: 25px;
+    height: 40px;
+    font-size: 20px;
     background-color: #C9611D;
 
     border-radius: 6px;
@@ -329,10 +339,10 @@ body {
 .contactme {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 
     color: white;
-    font-size: 30px;
+    font-size: 20px;
 
 }
 
@@ -359,11 +369,10 @@ body {
 
 .single_section {
     height: 500px;
+    /* width: 100%; */
 }
 
-.web-design {
-    text-align: center;
-}
+
 
 
 
@@ -373,7 +382,9 @@ body {
 
 .single_project {
 
-    width: 280px;
+
+
+    width: 300px;
 }
 
 #my-project {
@@ -442,6 +453,7 @@ body {
 
     .single_skill {
         width: 100%;
+        height: 100%;
     }
 
     .contactme {
