@@ -9,11 +9,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
-    <link href="    https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js
-    " rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-        crossorigin="anonymous">
+
     <link rel="stylesheet" href="style.css">
-    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
@@ -23,7 +21,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav id="nav-bar" class="navbar navbar-expand-lg ">
             <div class="container-fluid  ">
                 <a class=" logo navbar-brand fw-bold  ms-4" href="#">Ahmad</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -85,59 +83,20 @@
 
     <section class="section2 single_section" id="about_me" data-aos="flip-left">
 
-        <h2 style="color: white;" style="font-size:50px ;">About Me</h2>
+        <h5 style="color: white;  font-size: 60px; ">About Me</h5>
         <br>
         <h3 style="font-size:40px ;">Full stack web developer</h3>
         <br>
-        <p style="color:white  ; "> I can provide clean code and pixel perferct design. I also make the website more
+        <p style="color:white"> I can provide clean code and pixel perfect design. I also make the website more
             interactive by web animations.
         </p>
         <button class="about-button"><a href="#contact_me">Contact</a></button>
     </section>
 
-    <section class="single_section" id="my-services" data-aos="zoom-in">
-        <h2 style="color:white ; text-align: center; margin-bottom: 50px;">My Services</h2>
-        <div class="section3">
-
-
-
-            <div class="web-design service   card text-bg-secondary mb-3" style="max-width: 25rem;">
-                <div class="card-header">Web Design</div>
-                <div class="card-body">
-                    <!-- <h5 class="card-title">Web Design</h5> -->
-                    <p class="card-text">Create website designs, and produce sample sites..</p>
-                </div>
-            </div>
-            <div class="web-dev service card text-bg-secondary mb-3" style="max-width: 25rem;">
-                <div class="card-header">Web Development</div>
-                <div class="card-body">
-                    <!-- <h5 class="card-title">Web Development</h5> -->
-                    <p class="card-text">Translating wireframe designs into working code</p>
-                </div>
-            </div>
-
-            <!-- 
-            <div class="web-design service">
-
-
-                <h3 style="color:#C9611D ;">Web Design</h3>
-                <p>Create website designs, and produce sample sites.</p>
-
-            </div>
-            <div class="web-dev service">
-
-                <h3 style="color:#C9611D ;">Web Development</h3>
-                <p>Translating wireframe designs into working code.</p> -->
-
-        </div>
-        </div>
-        </div>
-    </section>
-
 
     <section class="single_section" id="my-skills" data-aos="fade-right" data-aos-offset="300"
         data-aos-easing="ease-in-sine">
-        <h2 class="skills_heading">My Skills</h2>
+        <h2 style="margin-bottom:45px" class="skills_heading">My Skills</h2>
 
 
         <div class="Technical-Skills">
@@ -227,12 +186,12 @@
 
     </div>
 
-    <h2 class="project_heading"> My Project</h2>
+    <h2 style="margin-bottom:45px ;" class="project_heading"> My Project</h2>
     <section class="single_section" id="my-project" data-aos="fade-left" data-aos-anchor="#example-anchor"
         data-aos-offset="1000" data-aos-duration="1000">
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="single_project  col ">
-                <div class="bg-secondary  card h-100">
+                <div class="width   bg-secondary      card h-100">
                     <img src="./css/store.png" class="card-img-top" alt="...">
                     <div class=" card-body">
                         <h5 class="My Shop">Book Store</h5>
@@ -249,15 +208,32 @@
 
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="single_project  col">
-                <div class="bg-secondary    card h-100">
+                <div class="width     bg-secondary        card h-100">
                     <img src="./css/welcom.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="My Shop">Book Shop</h5>
                         <p class="card-text"> This store offers to sell books online using HTML CSS.</p>
                     </div>
                     <div class="card-footer">
-                        <small class="text-muted"><button id="buttonp"><a href="https://ahmadyzahran.github.io/home/"
+                        <small class="text-muted"><button id="buttonp"><a href="https://ahmadyzahran.github.io/My_Shop/"
                                     target="_blank"> View</a>
+                            </button></small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div id="ahmad" class="single_project  col">
+                <div class="width     bg-secondary    card h-100">
+                    <img src="./css/flex.png" id="height" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="My Shop">Book Shop</h5>
+                        <p class="card-text"> This store offers to sell books online using HTML CSS.</p>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted"><button id="buttonp"><a
+                                    href="https://ahmadyzahran.github.io/-flex-grid-/" target="_blank"> View</a>
                             </button></small>
                     </div>
                 </div>
@@ -276,35 +252,27 @@
         <section class='single_section_small' id="contact_me">
 
             <div class="contactme">
-                <!-- <div class="send single_contact">
-                    <h3>Send A Email</h3>
-                    <p>ahmadyousefzahran@gmail.com</p>
-                </div> -->
-                <div class="send single_contact">
-                    <h3>Call Me</h3>
-                    <p>+962778086313</p>
-                </div>
-                <div class="send single_contact">
-                    <h3>My Address</h3>
-                    <p>Jordan</p>
-                </div>
 
                 <div class="single_contact">
                     <h3>Follow Me</h3>
                     <a href="https://github.com/AhmadyZahran"><i class='fab fa-github'
                             style='font-size:40px;color:white'></i></a>
 
-                    <a href="https://www.linkedin.com/in/ahmad-zahran-67a269244/"><i class='fab fa-linkedin'
-                            style='font-size:40px;color:white'></i></a>
+                    <a style="margin:0 5px 0 5px ;" href="https://www.linkedin.com/in/ahmad-zahran-67a269244/"><i
+                            class='fab fa-linkedin' style='font-size:40px;color:white'></i></a>
 
+                    <a href="https://mail.google.com/mail/u/0/#inbox"> <i class="fa fa-envelope"
+                            style="font-size:43px;color:white"></i> </a>
 
+                    <a style="margin-left: 5px;" href="tel:+962778086313"> <i class="fa fa-phone"
+                            style="font-size:36px;color:white"></i> </a>
 
 
                 </div>
 
             </div>
         </section>
-
+        <div style="color:white ;"> © 2022 ahmad. All rights reserved. Cookie policy, Privacy and Terms.</div>
     </footer>
 
 

@@ -6,9 +6,18 @@
 
 }
 
+#nav-bar {
+
+    background-color: #b8bbbe;
+    width: 100;
+
+}
+
+
 H2 {
     color: white;
     text-align: center;
+    /* font-size: 80px; */
 
 }
 
@@ -222,14 +231,14 @@ body {
 
 
 .tech {
-    width: 190px;
+    width: 390px;
     border: solid 1px white;
     margin: 10px;
     height: fit-content;
 }
 
 .soft {
-    width: 190px;
+    width: 390px;
     border: solid 1px white;
     margin: 10px;
     height: fit-content;
@@ -339,7 +348,7 @@ body {
 .contactme {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
 
     color: white;
     font-size: 20px;
@@ -382,9 +391,15 @@ body {
 
 .single_project {
 
+    height: 460px;
 
 
-    width: 300px;
+
+    width: 370px;
+}
+
+#height {
+    height: 279px;
 }
 
 #my-project {
@@ -398,7 +413,14 @@ body {
 }
 
 .single_contact {
-    margin: 20px
+    margin: 20px;
+    text-align: start;
+    text-decoration: none;
+
+}
+
+.single_contact a {
+    text-decoration: none;
 }
 
 
@@ -443,11 +465,11 @@ body {
     }
 
     .project_heading {
-        margin-top: 300px;
+        margin-top: 325px;
     }
 
     #my-project .single_project {
-        margin-top: 30px;
+        margin-top: 45px;
         text-align: center;
     }
 
@@ -458,7 +480,7 @@ body {
 
     .contactme {
         font-size: 15px;
-        height: 50px;
+        height: 105px;
     }
 
     .send {
@@ -469,4 +491,13 @@ body {
     hr {
         margin-bottom: 100px;
     }
+}
+
+
+@media (min-width:280px) {
+
+    .contactme {
+        height: 250px;
+    }
+
 }
