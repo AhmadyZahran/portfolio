@@ -1,6 +1,7 @@
 # portfolio
 
 I present to you a portfolio in which there is a brief about the projects that I have undertaken and the skills that I possess
+uses html css bootstrap
 
 ## wireframe
 
