@@ -1,5 +1,7 @@
 # portfolio
 
+I present to you a portfolio in which there is a brief about the projects that I have undertaken and the skills that I possess
+
 ## wireframe
 
 ![wireframe](https://user-images.githubusercontent.com/109509040/182710234-d132f52b-dc66-479a-83f6-81d3ee9517f5.png)
