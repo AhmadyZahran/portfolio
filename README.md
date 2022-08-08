@@ -1,7 +1,7 @@
 # portfolio
 
 I present to you a portfolio in which there is a brief about the projects that I have undertaken and the skills that I possess
-uses html css bootstrap
+used html css bootstrap
 
 ## wireframe
 
@@ -13,4 +13,4 @@ uses html css bootstrap
 
 
 ## github live pages     
-
+https://ahmadyzahran.github.io/portfolio_2022/
