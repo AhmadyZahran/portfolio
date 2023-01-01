@@ -23,13 +23,17 @@ H2 {
 
 h3 {
     color: #C9611D;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 hr {
     color: white
 }
 
-
+#image {
+    height: inherit;
+}
 
 .logo {
 
@@ -142,6 +146,11 @@ body {
 
 #my-service h2 {
     margin-bottom: 50px;
+}
+
+#my-skills {
+
+    margin-bottom: 362px;
 }
 
 .section3 {
@@ -348,7 +357,7 @@ body {
 .contactme {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
 
     color: white;
     font-size: 20px;
@@ -377,7 +386,7 @@ body {
 }
 
 .single_section {
-    height: 500px;
+    height: 700px;
     /* width: 100%; */
 }
 
@@ -405,7 +414,7 @@ body {
 #my-project {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .nav-link {
@@ -480,7 +489,7 @@ body {
 
     .contactme {
         font-size: 15px;
-        height: 105px;
+        height: 80px;
     }
 
     .send {
@@ -496,8 +505,20 @@ body {
 
 @media (min-width:280px) {
 
-    .contactme {
-        height: 250px;
+
+
+    /* .contactme {
+        height: 600px;
+    } */
+
+}
+
+@media (max-width:844px) {
+    .tech {
+        margin-bottom: 50px;
     }
 
+    #my-skills {
+        margin-bottom: 1000px;
+    }
 }
